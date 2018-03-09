@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="WindowDisplay.AlertLine">
+  <grid id="27dc6" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="1392" height="74"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="8c7c0" binding="alert" layout-manager="GridLayoutManager" row-count="2" column-count="15" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="2a62d" class="javax.swing.JLabel" binding="nameDescription">
+            <constraints>
+              <grid row="0" column="0" row-span="2" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Roboto"/>
+              <foreground color="-16777216"/>
+              <text value="Dafalgan 1gr tablets"/>
+            </properties>
+          </component>
+          <component id="cde15" class="javax.swing.JLabel" binding="category">
+            <constraints>
+              <grid row="0" column="2" row-span="2" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Roboto"/>
+              <foreground color="-16777216"/>
+              <text value="Pain killer"/>
+            </properties>
+          </component>
+          <component id="61870" class="javax.swing.JLabel" binding="tag">
+            <constraints>
+              <grid row="0" column="8" row-span="2" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <icon value="Pictures/outdatedProductTag.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="f70df" class="javax.swing.JButton" binding="moreButton">
+            <constraints>
+              <grid row="0" column="10" row-span="2" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <borderPainted value="false"/>
+              <icon value="Pictures/More_AlertsButton.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="a6fa1" class="javax.swing.JLabel" binding="id">
+            <constraints>
+              <grid row="0" column="12" row-span="2" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Roboto" style="2"/>
+              <foreground color="-6974059"/>
+              <horizontalAlignment value="0"/>
+              <text value="ID_000001"/>
+            </properties>
+          </component>
+          <component id="2dbb0" class="javax.swing.JButton" binding="doneButton">
+            <constraints>
+              <grid row="0" column="14" row-span="2" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <borderPainted value="false"/>
+              <icon value="Pictures/done.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <hspacer id="d4cb">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="1" hsize-policy="7" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+          <hspacer id="aa035">
+            <constraints>
+              <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="1" hsize-policy="7" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="100" height="-1"/>
+                <preferred-size width="100" height="-1"/>
+                <maximum-size width="100" height="-1"/>
+              </grid>
+            </constraints>
+          </hspacer>
+          <hspacer id="3cb75">
+            <constraints>
+              <grid row="1" column="5" row-span="1" col-span="1" vsize-policy="1" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="75" height="-1"/>
+                <preferred-size width="75" height="-1"/>
+                <maximum-size width="75" height="-1"/>
+              </grid>
+            </constraints>
+          </hspacer>
+          <hspacer id="8d189">
+            <constraints>
+              <grid row="1" column="7" row-span="1" col-span="1" vsize-policy="1" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="80" height="-1"/>
+                <preferred-size width="80" height="-1"/>
+                <maximum-size width="80" height="-1"/>
+              </grid>
+            </constraints>
+          </hspacer>
+          <hspacer id="5c332">
+            <constraints>
+              <grid row="1" column="9" row-span="1" col-span="1" vsize-policy="1" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="70" height="-1"/>
+                <preferred-size width="70" height="-1"/>
+                <maximum-size width="70" height="-1"/>
+              </grid>
+            </constraints>
+          </hspacer>
+          <hspacer id="a7204">
+            <constraints>
+              <grid row="1" column="11" row-span="1" col-span="1" vsize-policy="1" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="155" height="-1"/>
+                <preferred-size width="155" height="-1"/>
+                <maximum-size width="155" height="-1"/>
+              </grid>
+            </constraints>
+          </hspacer>
+          <hspacer id="4a6b4">
+            <constraints>
+              <grid row="1" column="13" row-span="1" col-span="1" vsize-policy="1" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="140" height="-1"/>
+                <preferred-size width="140" height="-1"/>
+                <maximum-size width="140" height="-1"/>
+              </grid>
+            </constraints>
+          </hspacer>
+          <component id="a61bc" class="javax.swing.JLabel" binding="emissionDate">
+            <constraints>
+              <grid row="0" column="6" row-span="2" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Roboto"/>
+              <foreground color="-16777216"/>
+              <text value="28/10/2017"/>
+            </properties>
+          </component>
+          <component id="4d1d7" class="javax.swing.JLabel" binding="location">
+            <constraints>
+              <grid row="0" column="4" row-span="2" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Roboto"/>
+              <foreground color="-16777216"/>
+              <text value="Cabinet 1"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>

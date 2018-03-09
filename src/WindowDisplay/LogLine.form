@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="WindowDisplay.LogLine">
+  <grid id="27dc6" binding="rootLogLine" layout-manager="GridLayoutManager" row-count="2" column-count="9" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="948" height="69"/>
+    </constraints>
+    <properties>
+      <background color="-1"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="2d9a3" class="javax.swing.JLabel" binding="descriptionLog">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Roboto"/>
+          <foreground color="-16777216"/>
+          <text value="User log in"/>
+        </properties>
+      </component>
+      <component id="b64d9" class="javax.swing.JLabel" binding="logTag">
+        <constraints>
+          <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Roboto"/>
+          <foreground color="-16777216"/>
+          <icon value="Pictures/Log_loggedIn.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="b126" class="javax.swing.JLabel" binding="emissionDate">
+        <constraints>
+          <grid row="0" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Roboto"/>
+          <foreground color="-16777216"/>
+          <text value="28/10/2017"/>
+        </properties>
+      </component>
+      <component id="10b47" class="javax.swing.JLabel" binding="hour">
+        <constraints>
+          <grid row="0" column="8" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Roboto"/>
+          <foreground color="-16777216"/>
+          <text value="22:43:42"/>
+        </properties>
+      </component>
+      <vspacer id="5f936">
+        <constraints>
+          <grid row="1" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+            <minimum-size width="-1" height="10"/>
+            <preferred-size width="-1" height="10"/>
+            <maximum-size width="-1" height="10"/>
+          </grid>
+        </constraints>
+      </vspacer>
+      <hspacer id="a0866">
+        <constraints>
+          <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="1" hsize-policy="7" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="9a8be">
+        <constraints>
+          <grid row="0" column="5" row-span="1" col-span="1" vsize-policy="1" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="120" height="-1"/>
+            <preferred-size width="120" height="-1"/>
+            <maximum-size width="120" height="-1"/>
+          </grid>
+        </constraints>
+      </hspacer>
+      <hspacer id="9fade">
+        <constraints>
+          <grid row="0" column="7" row-span="1" col-span="1" vsize-policy="1" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="140" height="-1"/>
+            <preferred-size width="140" height="-1"/>
+            <maximum-size width="140" height="-1"/>
+          </grid>
+        </constraints>
+      </hspacer>
+      <component id="eb261" class="javax.swing.JLabel" binding="user">
+        <constraints>
+          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Roboto"/>
+          <foreground color="-16777216"/>
+          <text value="Joséphine"/>
+        </properties>
+      </component>
+      <hspacer id="f5c3">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="1" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+    </children>
+  </grid>
+</form>
